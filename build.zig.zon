@@ -33,16 +33,15 @@
     // internet connectivity.
     .dependencies = .{
         .vulkan_zig = .{
-            .url = "git+https://github.com/Snektron/vulkan-zig?ref=zig-0.15-compat#1446b0b994c2362264cc24513d7c7ec31b469c50",
-            .hash = "vulkan-0.0.0-r7Ytx_VDAwAiMl0YSu2UOkVMIGJN7CeIQaxJR-hUSfD6",
+            .path = "deps/vulkan-zig",
         },
         .vulkan_headers = .{
             .url = "git+https://github.com/KhronosGroup/Vulkan-Headers?ref=main#6aefb8eb95c8e170d0805fd0f2d02832ec1e099a",
             .hash = "N-V-__8AAOY5EQK574vuhsqN45eOwimMBUlbQXNr7W7pJeiG",
         },
         .zglfw = .{
-            .url = "git+https://github.com/IridescenceTech/zglfw#e05188a71db6053ec56bba83a27fb736a26562ce",
-            .hash = "zglfw-0.1.0-BghZXabUAACfsXVTPWvmy44XLsc-wux2G9w8Mbp523pJ",
+            .url = "git+https://github.com/IridescenceTech/zglfw#188d33b5abdb24768905dec1dad6b3ffd60fc324",
+            .hash = "zglfw-0.1.0-BghZXaTUAAAkCOlD_2akK4k1zIzo6HIXelVZu39yr_MO",
         },
         .glfw_zig = .{
             .url = "git+https://github.com/tiawl/glfw.zig/?ref=HEAD#fde8a36d681ea57a1ec86b2d81bd3184108b5685",
